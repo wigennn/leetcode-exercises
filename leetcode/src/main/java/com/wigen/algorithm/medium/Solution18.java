@@ -32,4 +32,9 @@ public class Solution18 {
             return new ArrayList<>(result);
         }
     }
+
+    public static void main(String[] args) {
+        byte[] bytes = new byte[365];
+        Arrays.asList(bytes).stream().forEach(System.out::println);
+    }
 }
